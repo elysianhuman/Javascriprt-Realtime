@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Editor from "@monaco-editor/react";
+import './App.css';  // Import the CSS file
 
 function App() {
   const [code, setCode] = useState("console.log('Hello, world!');");
@@ -24,15 +25,8 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "row",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
-      <div style={{ width: "50%", height: "100%" }}>
+    <div className="container">
+      <div className="editor-container">
         <Editor
           height="100%"
           language="javascript"
@@ -41,16 +35,7 @@ function App() {
           theme="vs-dark"
         />
       </div>
-      <div
-        style={{
-          width: "50%",
-          height: "100%",
-          padding: "10px",
-          backgroundColor: "#282c34",
-          color: "#ffffff",
-          overflow: "auto",
-        }}
-      >
+      <div className="output-container">
         <h3>Output:</h3>
         <pre style={{ margin: 0 }}>{output}</pre>
       </div>

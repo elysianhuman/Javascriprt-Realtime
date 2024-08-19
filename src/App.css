@@ -1,0 +1,37 @@
+/* Base styling for the container */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Styling for the editor section */
+  .editor-container {
+    width: 50%;
+    height: 100%;
+  }
+  
+  /* Styling for the output section */
+  .output-container {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: #282c34;
+    color: #ffffff;
+    overflow: auto;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .editor-container,
+    .output-container {
+      width: 100%;
+      height: 50%;
+    }
+  }
+  

@@ -5,4 +5,5 @@ import prettier from "vite-plugin-prettier";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), prettier()],
+  base: "/Javascriprt-Realtime/"
 });
