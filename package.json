@@ -2,6 +2,7 @@
   "name": "javascript-realtime-executer",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/elysianhuman/Javascriprt-Realtime/",
   "type": "module",
   "scripts": {
     "dev": "vite",

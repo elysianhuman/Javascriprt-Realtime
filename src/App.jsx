@@ -37,7 +37,7 @@ function App() {
       </div>
       <div className="output-container">
         <h3>Output:</h3>
-        <pre style={{ margin: 0 }}>{output}</pre>
+        <pre style={{ margin: 0 }}>{JSON.stringify(output)}</pre>
       </div>
     </div>
   );
