@@ -9,6 +9,7 @@
   /* Styling for the editor section */
   .editor-container {
     width: 50%;
+    padding-left: 10px;
     height: 100vh;
   }
   
