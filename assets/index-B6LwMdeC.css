@@ -1,0 +1,1 @@
+.container{display:flex;flex-direction:row;height:100%;width:100%}.editor-container{width:50%;height:100vh}.output-container{width:50%;height:100vh;padding-left:10px;background-color:#282c34;color:#fff;overflow:auto}@media (max-width: 768px){.container{flex-direction:column}.editor-container,.output-container{width:100vh;height:50vw}}
