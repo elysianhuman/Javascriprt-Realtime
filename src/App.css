@@ -2,21 +2,21 @@
 .container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
   
   /* Styling for the editor section */
   .editor-container {
     width: 50%;
-    height: 100%;
+    height: 100vh;
   }
   
   /* Styling for the output section */
   .output-container {
     width: 50%;
-    height: 100%;
-    padding: 10px;
+    height: 100vh;
+    padding-left: 10px;
     background-color: #282c34;
     color: #ffffff;
     overflow: auto;
@@ -28,10 +28,13 @@
       flex-direction: column;
     }
     
-    .editor-container,
+    .editor-container{
+      width: 100%;
+      height: 30vh;
+    }
     .output-container {
       width: 100%;
-      height: 50%;
+      height: 70vh;
     }
   }
   
